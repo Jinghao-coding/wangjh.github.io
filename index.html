@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jinghao Wang - PhD candidate at Beihang University. Research in cloud computing, GPU scheduling, and LLM performance prediction.">
+  <title>Jinghao Wang | Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo">Jinghao</a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#publications" class="nav__link">Papers</a></li>
+      <li><a href="#service" class="nav__link">Service</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+    <div class="nav__hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__greeting">Hello, I'm</p>
+      <h1 class="hero__title">Jinghao <span>Wang</span></h1>
+      <p class="hero__subtitle">
+        <span id="typewriter"></span><span class="cursor"></span>
+      </p>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="about reveal">
+      <div class="about__text">
+        <p class="section__label">About Me</p>
+        <h2 class="section__title">Researcher & PhD Candidate</h2>
+        <p>
+          I am a PhD candidate in Software Engineering at Beihang University (BUAA), 
+          advised by Prof. Chunming Hu. My research focuses on building efficient and intelligent 
+          systems for cloud computing and AI infrastructure.
+        </p>
+        <p>
+          I am particularly interested in GPU cluster scheduling, performance prediction 
+          for deep learning and LLM workloads, and resource management for microservices. 
+          My work has been recognized with the Best Paper Award at IEEE JCC 2024.
+        </p>
+
+        <p class="section__label" style="margin-top: 2.5rem;">Research Interests</p>
+        <div class="research__tags">
+          <span class="research__tag">Cloud Computing</span>
+          <span class="research__tag">GPU Scheduling</span>
+          <span class="research__tag">LLM Systems</span>
+          <span class="research__tag">Performance Prediction</span>
+          <span class="research__tag">Deep Learning Systems</span>
+          <span class="research__tag">Microservices</span>
+        </div>
+
+        <div class="about__stats">
+          <div>
+            <div class="about__stat-number">5+</div>
+            <div class="about__stat-label">Papers</div>
+          </div>
+          <div>
+            <div class="about__stat-number">1</div>
+            <div class="about__stat-label">Best Paper</div>
+          </div>
+          <div>
+            <div class="about__stat-number">∞</div>
+            <div class="about__stat-label">Curiosity</div>
+          </div>
+        </div>
+      </div>
+      <div class="about__decoration">
+        <!-- Profile Photo -->
+        <div class="about__photo-wrapper">
+          <img src="figs/wjh-github.jpeg" alt="Jinghao Wang" class="about__photo">
+        </div>
+        <!-- Education Timeline -->
+        <div class="education__timeline" style="position: relative; width: 100%;">
+          <div class="education__item">
+            <div class="education__item-period">2022 — Present</div>
+            <div class="education__item-title">Ph.D. in Software Engineering</div>
+            <div class="education__item-desc">Beihang University (BUAA)</div>
+          </div>
+          <div class="education__item">
+            <div class="education__item-period">2021 — 2022</div>
+            <div class="education__item-title">Software Engineer</div>
+            <div class="education__item-desc">ByteDance</div>
+          </div>
+          <div class="education__item">
+            <div class="education__item-period">2018 — 2021</div>
+            <div class="education__item-title">M.S. in Computer Science</div>
+            <div class="education__item-desc">Beihang University (BUAA)</div>
+          </div>
+          <div class="education__item">
+            <div class="education__item-period">2013 — 2017</div>
+            <div class="education__item-title">B.S. in Computer Science</div>
+            <div class="education__item-desc">Chongqing University (CQU)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="section" id="publications">
+    <div class="reveal">
+      <p class="section__label">Publications</p>
+      <h2 class="section__title">Selected Papers</h2>
+      <div class="publications__list">
+
+        <div class="paper-card">
+          <span class="paper-card__venue">ICDCS 2026</span>
+          <h3 class="paper-card__title">Maestro: Workload-Aware Cross-Cluster Scheduling for LLM-Based Multi-Agent Systems</h3>
+          <p class="paper-card__authors"><strong>Jinghao Wang</strong>, Xiao Zhou, Xiaoyang Sun, Yihui Zhang, Yilong Li, Tianyu Wo, Xu Wang, Chunming Hu, Renyu Yang</p>
+          <div class="paper-card__meta">
+            <div class="paper-card__links">
+              <a href="#" class="paper-card__link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                PDF
+              </a>
+            </div>
+            <span class="paper-card__year">2026</span>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <span class="paper-card__venue paper-card__venue--award">JCC 2024 · Best Paper Award</span>
+          <h3 class="paper-card__title">RESCAPE: A Resource Estimation System for Microservices with Graph Neural Network and Profile Engine</h3>
+          <p class="paper-card__authors"><strong>Jinghao Wang</strong>, Guangzu Wang, Tianyu Wo, Xu Wang, Renyu Yang</p>
+          <div class="paper-card__meta">
+            <div class="paper-card__links">
+              <a href="#" class="paper-card__link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                PDF
+              </a>
+              <a href="#" class="paper-card__link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
+                Code
+              </a>
+            </div>
+            <span class="paper-card__year">2024</span>
+          </div>
+        </div>
+
+      </div>
+      <p style="text-align: center; margin-top: 2rem;">
+        <a href="https://scholar.google.com/citations?user=En8_VAkAAAAJ&hl=en" target="_blank" rel="noopener" style="color: var(--color-accent); border-bottom: 1px solid var(--color-accent); padding-bottom: 2px; transition: opacity 0.3s;">
+          View full publication list on Google Scholar →
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Academic Service Section -->
+  <section class="section" id="service">
+    <div class="reveal">
+      <p class="section__label">Academic Service</p>
+      <h2 class="section__title">Professional Activities</h2>
+      <div class="service__list">
+        <div class="service__category">
+          <h3 class="service__category-title">Open Source</h3>
+          <ul class="service__items">
+            <li class="service__item">
+              Lead maintainer of <a href="https://github.com/raids-lab/crater" target="_blank" rel="noopener" style="color: var(--color-accent); border-bottom: 1px solid rgba(212,165,116,0.3);">CRATER</a> (raids-lab/crater)
+            </li>
+          </ul>
+        </div>
+        <div class="service__category">
+          <h3 class="service__category-title">Journal Reviewer</h3>
+          <ul class="service__items">
+            <li class="service__item">IEEE Transactions on Parallel and Distributed Systems (TPDS)</li>
+            <li class="service__item">IEEE Transactions on Cloud Computing (TCC)</li>
+          </ul>
+        </div>
+        <div class="service__category">
+          <h3 class="service__category-title">Conference Reviewer</h3>
+          <ul class="service__items">
+            <li class="service__item">IEEE International Conference on JointCloud Computing (JCC 2026)</li>
+            <li class="service__item">IEEE International Conference on Omni-layer Intelligent Systems (COINS 2026)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact reveal" id="contact">
+    <p class="section__label">Get In Touch</p>
+    <h2 class="contact__title">Let's Collaborate</h2>
+    <p class="contact__desc">I'm always open to discussing research collaborations, new ideas, or opportunities in academia and industry.</p>
+    <div class="contact__links">
+      <a href="mailto:jeffery_06@163.com" class="contact__link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="M22 7l-10 6L2 7"/>
+        </svg>
+        jeffery_06@163.com
+      </a>
+      <a href="https://github.com/Jinghao-coding" target="_blank" rel="noopener" class="contact__link">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=En8_VAkAAAAJ&hl=en" target="_blank" rel="noopener" class="contact__link">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+        </svg>
+        Google Scholar
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__text">&copy; 2025 Jinghao. Crafted with care.</p>
+    <a href="#" class="footer__back-top">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+      </svg>
+      Back to top
+    </a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
